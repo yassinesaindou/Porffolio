@@ -11,17 +11,19 @@
       src="https://kit.fontawesome.com/6982c8b301.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
     <link rel="stylesheet" href="style.css" />
-    <title>yassine's Portfolio</title>
+    <title>Yassine's Portfolio</title>
   </head>
   <body>
     <!--NavBar-->
-    <nav  class="navbar">
-      <h1 class="navbar__logo">YASSINE</h1>
+    <nav  class="navbar" >
+      <h1 class="navbar__logo"  data-aos="fade-right" data-aos-duration="800">YASSINE</h1>
       <div class="burger__menu collapse ">
         <i class="fa-solid fa-bars fa-2x"></i>
       </div>
-      <div class="navbar__info">
+      <div class="navbar__info"  data-aos="fade-left" data-aos-duration="800">
         <ul class="list collapsed">
           <li href="#contact" class="navbar__item"><a href="#home">Home</a></li>
           <li class="navbar__item"><a href="#about">About</a></li>
@@ -30,7 +32,7 @@
           <li class="navbar__item"><a href="#testimonials">Testimonials</a></li>
         </ul>
       </div>
-      <a href="#contact" class="btn btn__primary">Contact Me</a>
+      <a href="#contact" class="btn btn__primary"  data-aos="fade-left" data-aos-duration="800">Contact Me</a>
     </nav>
 
     <!--Herooo-->
@@ -38,24 +40,24 @@
     <section id="home" class="hero__section">
       <div class="hero__text grid">
         <div class="hero__intro">
-          <p class="intro__name">Hey I am <span class="hero__name">Yassine Saindou</span></p>
-          <p class="intro__function">A Web Developer</p>
+          <p class="intro__name"  data-aos="fade-right" data-aos-duration="1200" >Hey I am <span class="hero__name"  data-aos="zoom-in" data-aos-duration="1200">Yassine Saindou</span></p>
+          <p class="intro__function"  data-aos="fade-left" data-aos-duration="1200">A Web Developer</p>
         </div>
       </div>
       </div>
     </section>
     <!--About Section-->
     <section id="about"  class="container about__container">
-      <h2 class="about__heading">I am a Creative Web and App Developer</h2>
-       <div class="about__section grid grid--1x2">
-        <div class="about__intro" >
+      <h2 class="about__heading" data-aos="fade-right" data-aos-duration="800">I am a Creative Web and App Developer</h2>
+       <div class="about__section grid grid--1x2" data-aos="fade-up" data-aos-duration="800">
+        <div class="about__intro"  data-aos="zoom-in" data-aos-duration="800">
           <div class="about__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo a sequi optio vero corrupti enim fuga. Ratione, ad similique deserunt reprehenderit nulla, minus aliquid nam autem quae, provident sint magni! Magni voluptate omnis quos earum sit, adipisci cupiditate, voluptatum optio itaque saepe explicabo quas quaerat consectetur aperiam quo consequatur doloremque.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat enim obcaecati explicabo an
           </div>
           <button href="#" class="btn btn__primary">Hire Me</button>
         </div>
-        <div class="about__progresses">
-          <div class="about__progress grid">
+        <div class="about__progresses" data-aos="zoom-in" data-aos-duration="800" >
+          <div class="about__progress grid" data-aos="fade-left" data-aos-duration="800">
             <div class="about__progress-text">
               <h3>UI/UX Design</h3>
               <p>80</p>
@@ -64,7 +66,7 @@
               <div class="about__progress__value"></div>
             </div>
           </div>
-          <div class="about__progress grid">
+          <div class="about__progress grid" data-aos="fade-left" data-aos-duration="800">
             <div class="about__progress-text">
               <h3>App Development</h3>
               <p>80</p>
@@ -73,7 +75,7 @@
               <div class="about__progress__value"></div>
             </div>
           </div>
-          <div class="about__progress grid">
+          <div class="about__progress grid" data-aos="fade-left" data-aos-duration="800">
             <div class="about__progress-text">
               <h3>Web Development</h3>
               <p>80</p>
@@ -91,9 +93,9 @@
     <!--Services-->
 
     <section id="services" class="container service__container grid">
-      <h2 class="services__heading">My Services</h2>
-      <div class="services grid grid--1x2 grid--1x3">
-        <div class="service__card">
+      <h2 class="services__heading" data-aos="fade-right" data-aos-duration="800">My Services</h2>
+      <div class="services grid grid--1x2 grid--1x3"  data-aos="zoom-in" data-aos-duration="500">
+        <div class="service__card" data-aos="zoom-in" data-aos-duration="500">
           <div class="sevice__logo">
             <i class="fa-solid fa-pen-ruler fa-3x"></i>
           </div>
@@ -104,7 +106,7 @@
           </p>
         </div>
   
-        <div class="service__card">
+        <div class="service__card" data-aos="zoom-in" data-aos-duration="500">
           <div class="sevice__logo">
             <i class="fa-brands fa-app-store fa-3x"></i>
           </div>
@@ -115,7 +117,7 @@
           </p>
         </div>
   
-        <div class="service__card">
+        <div class="service__card"  data-aos="zoom-in" data-aos-duration="500">
           <div class="sevice__logo">
             <i class="fa-solid fa-cloud-arrow-up fa-3x"></i>
           </div>
@@ -132,26 +134,27 @@
 
     <!--My Work-->
     <section id="works" class="container work__container">
-      <div class="work__section grid">
-        <h2 class="work__heading">My Work</h2>
+      <div class="work__section grid"  data-aos="fade-up"
+      data-aos-anchor-placement="top-center" data-aos-duration="500">
+        <h2 class="work__heading" data-aos="fade-right">My Work</h2>
         <div class="work__template grid grid--1x2">
           <div class="work">
-            <img class="work__image" src="/images/1.png" alt="" />
+            <img class="work__image" src="/images/1.png" alt="A phone Pic" data-aos="zoom-in" data-aos-duration="600"/>
             <div class="work__category">App Design</div>
             <div class="work__client">Facebook</div>
           </div>
           <div class="work">
-            <img class="work__image" src="/images/3.png" alt="" />
+            <img class="work__image" src="/images/3.png" alt="A beautifule phone" data-aos="zoom-in" data-aos-duration="600"/>
             <div class="work__category">App Development</div>
             <div class="work__client">Google</div>
           </div>
           <div class="work">
-            <img class="work__image" src="/images/2.png" alt="" />
+            <img class="work__image" src="/images/2.png" alt="Iphone" data-aos="zoom-in" data-aos-duration="600"/>
             <div class="work__category">App Development</div>
             <div class="work__client">Microsoft</div>
           </div>
           <div class="work">
-            <img class="work__image" src="/images/4.png" alt="" />
+            <img class="work__image" src="/images/4.png" alt="Samsung Phone" data-aos="zoom-in" data-aos-duration="600" />
             <div class="work__category">App Development</div>
             <div class="work__client">Tesla</div>
           </div>
@@ -164,10 +167,10 @@
     <!--Testimonials-->
 
     <section id="testimonials" class="container testimonials__container">
-      <div class="testimonials__section grid">
+      <div class="testimonials__section grid" data-aos="zoom-in" data-aos-duration="500">
           <h2 class="testimonials__heading">What do my clients say about me</h2>
           <div class="testimonials__proofs grid grid--1x2 grid--1x3">
-            <div class="card testimonial__card">
+            <div class="card testimonial__card" data-aos="fade-up-right" data-aos-duration="500">
               <div class="author__profile">
                 <img
                   src="https://randomuser.me/api/portraits/men/78.jpg"
@@ -186,7 +189,7 @@
               >
             </div>
   
-            <div class="card testimonial__card">
+            <div class="card testimonial__card" data-aos="fade-up" data-aos-duration="500">
               <div class="author__profile">
                 <img
                   src="https://randomuser.me/api/portraits/men/70.jpg"
@@ -205,7 +208,7 @@
               >
             </div>
   
-            <div class="card testimonial__card">
+            <div class="card testimonial__card" data-aos="fade-up-left" data-aos-duration="500">
               <div class="author__profile">
                 <img
                   src="https://randomuser.me/api/portraits/men/54.jpg"
@@ -229,33 +232,33 @@
 
     <!-- Contacts-->
     <section id="contact" class="container contact__container">
-      <div class="contact__section grid">
-        <h2 class="contact__question">Do you have any project? <span>Let's talk</span></h2>
+      <div class="contact__section grid" data-aos="fade-up" data-aos-duration="500">
+        <h2 class="contact__question" data-aos="fade-right" data-aos-duration="500">Do you have any project? <span>Let's talk</span></h2>
         <p class="contact__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint sit quas quidem reprehenderit velit quo dolorem expedita eaque earum. Similique consequatur accusamus porro omnis adipisci cumque nostrum perferendis provident laborum?</p>
   
           <div class="contact__socials grid grid--1x4">
-            <div class="social-media">
+            <div class="social-media" data-aos="flip-right" data-aos-duration="1000">
               <div class="social-media__name">Phone</div>
               <div class="social-media__logo">
                 <i class="fa-solid fa-phone-volume fa-beat-fade fa-2x"></i>
               </div>
           </div>
   
-          <div class="social-media">
+          <div class="social-media" data-aos="flip-right" data-aos-duration="1000">
             <div class="social-media__name">Gmail</div>
             <div class="social-media__logo">
               <i class="fa-regular fa-envelope fa-2x"></i>
             </div>
         </div>
   
-        <div class="social-media">
+        <div class="social-media" data-aos="flip-right" data-aos-duration="1000">
           <div class="social-media__name">Facebook</div>
           <div class="social-media__logo">
             <i class="fa-brands fa-facebook fa-2x"></i>
           </div>
       </div>
   
-      <div class="social-media">
+      <div class="social-media" data-aos="flip-right" data-aos-duration="1000">
         <div class="social-media__name">Dribble</div>
         <div class="social-media__logo">
           <i class="fa-brands fa-dribbble fa-2x"></i>
@@ -271,6 +274,11 @@
     <p class="footer__text">Copyright ©2023 All rights reserved | This template is made by Yassine Saindou AKA the Lion</p>
   </footer>
 
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <script src="main.js"></script>
   </body>
 </html>
